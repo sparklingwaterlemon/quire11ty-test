@@ -2,7 +2,7 @@
 
 ## Description
 
-This issue ticket describes an error encountered while running Quire preview command or any npm script command on macOS Catalina 10.15.7. The error occurs due to a symbol not found error in the `cpp.42.dylib` library of the `libvips` module, which is expected in /usr/lib/libSystem.B.dylib. The error message is as follows:
+This issue ticket describes an error encountered while running Quire preview command or any npm script commands on macOS Catalina 10.15.7. The error occurs due to a symbol not found error in the `cpp.42.dylib` library of the `libvips` module, which is expected in /usr/lib/libSystem.B.dylib. The error message is as follows:
 
 
 ```
@@ -26,11 +26,11 @@ Expected in: /usr/lib/libSystem.B.dylib
 
 ## Expected behavior
 
-Quire preview command and npm script should execute without any errors.
+Quire preview command and npm scripts should execute without any errors.
 
 ## Steps to reproduce
 
-1. Run Quire preview command or npm run dev on macOS Catalina 10.15.7.
+1. Run Quire preview command or npm scripts on macOS Catalina 10.15.7.
 
 ## Attempts to solve
 
