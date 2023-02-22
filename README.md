@@ -34,17 +34,6 @@ Quire preview command and npm scripts should execute without any errors.
 
 ## Attempts to solve
 
-From different online solutions:
-- Using older versions of node and sharp may help resolve the issue
-- Installed Node Version Manager library to run older versions of Node.
-- Downgraded to sharp 0.31.1
-- These changes did not fix problem
-- Upgrading to Big Sur or newer may fix the issue
-
-I do not completely understand but according to the apple reference link below, all the libraries in /usr/lib have moved into the shared cache in Big Sur and newer. Operating on Catalina an older system seems to be the issue.
-
-## Attempts to solve
-
 After researching online solutions, the following attempts were made to resolve the issue:
 
 - Tried using older versions of Node and Sharp as suggested in a solution found online.
